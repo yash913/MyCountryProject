@@ -1,0 +1,153 @@
+.design2 {
+    padding-top: 40px;
+    position: relative;
+    width: 200px;
+    height: 120px;
+    background-color: #3AAFA9;
+    top: 73.4%;
+    float: left;
+    border-radius: 80px 200px 35px 20px;
+    /* opacity: 0.8; */
+}
+
+
+
+.AboutHeading {
+
+    margin-top: 4vw;
+    margin-left: 2vw;
+    background-color: #3AAFA9;
+    width: auto;
+    height: auto;
+    position: absolute;
+    font-size: 3.5vw;
+    border-radius: 2.5vw 0px;
+    padding: 1vw 6vw;
+    text-align: center;
+    color: #f1ffff;
+
+}
+
+.AboutContant {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: auto;
+    width: 60%;
+    position: absolute;
+    margin-top: 13vw;
+    margin-left: 2vw;
+    font-size: 1.3vw;
+    padding: 1.2vw 2vw;
+    text-align: start;
+    border-radius: 0.8vw;
+    border: 1px solid #2B7A78;
+    z-index: +1;
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px)  {
+    .block {       
+        width: 200px;
+        height: 150px; 
+    }
+
+    .home-container{
+        height: 400px;
+    }
+
+    .design2{
+        top: 60%;
+    }
+
+    .AboutHeading{
+        font-size: 4vw;
+        margin-top: 5vw;
+        margin-left: 4vw;
+       
+    }
+
+    .AboutContant{
+        font-size: 1.6vw;
+        margin-top: 15vw;
+        margin-left: 4vw;
+    }
+}
+
+
+
+/* Tablet View */
+@media only screen and (max-width: 768px) and (min-width: 597px)  {
+    .AboutHeading{
+        font-size: 5.5vw;
+        margin-top: 5.5vw;
+        margin-left: 4vw;
+    }
+
+    .AboutContant{
+        font-size: 1.9vw;
+        margin-top: 19vw;
+        margin-left: 4vw;
+    }
+
+    .home-container{
+        height: 350px;
+    }
+
+    .design2{
+        top: 54.3%;
+    }
+}
+
+  /* Mobile View */
+  @media only screen and (max-width: 598px)  and (min-width: 425px)  {
+    .AboutHeading{
+        font-size: 5.5vw;
+        margin-top: 6vw;
+        margin-left: 4vw;
+    }
+
+    .AboutContant{
+        font-size: 2.3vw;
+        margin-top: 19vw;
+        margin-left: 4vw;
+    }
+
+    .home-container{
+        height: 300px;
+    }
+
+    .design2{
+        top: 70%;
+        width: 100px;
+        height: 50px;
+    }
+
+
+  }
+
+  @media only screen and (max-width: 426px) 
+   /* and (min-width: 260px)   */
+  {
+
+
+    .home-container{
+        height: 200px;
+    }
+
+    .AboutHeading{
+        font-size: 5.5vw;
+        margin-top: 6vw;
+        margin-left: 4vw;
+    }
+
+    .AboutContant{
+        font-size: 2.3vw;
+        margin-top: 19vw;
+        margin-left: 4vw;
+    }
+
+
+    .design2{
+        top: 65%;
+        width: 80px;
+        height: 30px;
+    }
+  }

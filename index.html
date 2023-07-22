@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/e34f448d6b.js" crossorigin="anonymous"></script>
+    <script src="scripts\app.js"></script>
+
+    <link rel="stylesheet" href="styling\homeStyle.css">
+    <title>MyCountry</title>
+</head>
+
+<body onload="searchLoad();" onresize="Resize()">
+
+
+    <header>
+        <div class="header-Container">
+            <div class="header-message">
+                Welcome to My Country App
+            </div>
+            <div class="nav-Area">
+                <div class="nav-bar">
+                    <div class="active nav" id="homeNav"> Home </div>
+                    <a href="about.html">
+                        <div class=" nav" id="AboutNav"> About Us </div>
+                    </a>
+                </div>
+            </div>
+            <div class="search-Area">
+                <div class="search" id="searchArea">
+                    <input type="text" id="searchCountry" onkeypress="return EnterClicked(event)"
+                        placeholder="Search...">
+                    <!-- <button class="search-btn" id="searchbtn" onclick="search(); "> -->
+                    <i id="srchbtn" class="fa-solid fa-magnifying-glass-location fa-2xl search-btn" 
+                             ></i>
+                    <!-- </button> -->
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <section>
+        <div id="home-container" class="home-container">
+
+            <div id="flagArea" class="flag">
+
+            </div>
+            <div id="CName" class="Name"></div>
+            <div id="CCapital" class="Capital"></div>
+            <div id="COficialName" class="OficialName"></div>
+            <div class="block"> </div>
+            <div class="block-2"> </div>
+            <div class="Cinformation">
+                <div class="signContainer">
+                    <div id="nationalSign" class="NS"></div>
+                </div>
+                <div class="LocalInfo">
+
+                    <div class="CArea LclInfo">
+                        <div id="MArea" class="LocalInfoValue"></div>
+                        <div id="MArea" class="LocalInfoName">Area</div>
+                    </div>
+
+                    <div class="CPopulation LclInfo">
+                        <div id="MPopulation" class="LocalInfoValue"></div>
+                        <div id="MPopulation" class="LocalInfoName">Population</div>
+                    </div>
+
+                    <div class="Region LclInfo">
+                        <div id="MRegion" class="LocalInfoValue"></div>
+                        <div id="MRegion" class="LocalInfoName">Region</div>
+                    </div>
+
+
+                    <div class="Continent LclInfo">
+                        <div id="MContinent" class="LocalInfoValue"></div>
+                        <div id="MContinent" class="LocalInfoName">Continent</div>
+                    </div>
+                </div>
+                <h1 class="LangHeading"> Languages spoken</h1>
+                <div id="LocalInfo2" class="LocalInfo2">
+                </div>
+            </div>
+
+            <div class="design"></div>
+
+        </div>
+    </section>
+
+
+    <section>
+        <div class="heading">
+            <p>Neighbour Countries</p>
+        </div>
+        <div id="cardcontainer" class="card-container">
+        </div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div class="footer">
+            &#169 My Country App, All Rights Reserved
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
